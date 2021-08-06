@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E519DB3C26BD0674001EE4EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E519DB3B26BD0674001EE4EF /* .gitignore */; };
 		E558D38426BCE7FF00CA2A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E558D38326BCE7FF00CA2A2E /* AppDelegate.swift */; };
 		E558D38626BCE7FF00CA2A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E558D38526BCE7FF00CA2A2E /* SceneDelegate.swift */; };
 		E558D38826BCE7FF00CA2A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E558D38726BCE7FF00CA2A2E /* ViewController.swift */; };
@@ -14,10 +15,10 @@
 		E558D38E26BCE7FF00CA2A2E /* LittlePink_Git.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E558D38C26BCE7FF00CA2A2E /* LittlePink_Git.xcdatamodeld */; };
 		E558D39026BCE80100CA2A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E558D38F26BCE80100CA2A2E /* Assets.xcassets */; };
 		E558D39326BCE80100CA2A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E558D39126BCE80100CA2A2E /* LaunchScreen.storyboard */; };
-		E558D39C26BD04B600CA2A2E /* .gitignore.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E558D39B26BD04B600CA2A2E /* .gitignore.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E519DB3B26BD0674001EE4EF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E558D38026BCE7FF00CA2A2E /* LittlePink-Git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-Git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E558D38326BCE7FF00CA2A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E558D38526BCE7FF00CA2A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		E558D38F26BCE80100CA2A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E558D39226BCE80100CA2A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E558D39426BCE80100CA2A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E558D39B26BD04B600CA2A2E /* .gitignore.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = .gitignore.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		E558D37726BCE7FF00CA2A2E = {
 			isa = PBXGroup;
 			children = (
-				E558D39B26BD04B600CA2A2E /* .gitignore.rtf */,
+				E519DB3B26BD0674001EE4EF /* .gitignore */,
 				E558D38226BCE7FF00CA2A2E /* LittlePink-Git */,
 				E558D38126BCE7FF00CA2A2E /* Products */,
 			);
@@ -130,9 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E519DB3C26BD0674001EE4EF /* .gitignore in Resources */,
 				E558D39326BCE80100CA2A2E /* LaunchScreen.storyboard in Resources */,
 				E558D39026BCE80100CA2A2E /* Assets.xcassets in Resources */,
-				E558D39C26BD04B600CA2A2E /* .gitignore.rtf in Resources */,
 				E558D38B26BCE7FF00CA2A2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
